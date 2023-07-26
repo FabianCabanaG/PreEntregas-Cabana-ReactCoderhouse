@@ -4,7 +4,7 @@ import './style.css'
 
 const Cartwidget = (props) => {
     return (
-        <div>
+        <div id='container'>
             <img id="cartwidget" src={cart} alt={"cart"} />
             <p id='numbercartwidget'>{props.value}</p>
         </div>
