@@ -1,4 +1,4 @@
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
 import cartwidimg from '../../assets/cart.png'
 
@@ -21,3 +21,5 @@ const Cartwidget = (props) => {
 }
 
 export default Cartwidget
+
+;
